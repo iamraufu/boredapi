@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973);
+    background: linear-gradient(to right, #E5E5BE, #003973);
+    font-size: 1em;
+    margin-top: -45rem;
+    position: fixed;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: -10rem;
+    font-size: 3rem;
+    transition: color 0.5s ease-in-out;
+    background: #EDE574;
+    background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);
+    background: linear-gradient(to right, #E1F5C4, #EDE574);
+    cursor: pointer;
+}
